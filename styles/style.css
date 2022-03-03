@@ -1,0 +1,263 @@
+@import 'font.css';
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: #000000;
+}
+
+.container {
+   max-width: 1140px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.pods-title {
+   min-height: 700px;
+   background: url(../images/Head.png) no-repeat center /cover;
+}
+
+.header-top {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background: #282828;
+}
+
+.header-title {
+   display: flex;
+   color: #fff;
+   text-decoration: none;
+}
+
+.header-top__title {
+   padding-top: 20px;
+   padding-right: 30px;
+   padding-bottom: 20px;
+   list-style: none;
+}
+
+.header__link {
+   font-family: "Montserrat";
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 25px;
+}
+
+.aside__logo {
+   color: #fff;
+}
+
+.header-top__title {
+   font-family: "Montserrat Bold";
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.aside {
+   display: flex;
+}
+
+.aside__logo {
+   padding-left: 25px;
+}
+
+.pods-title {
+   row-gap: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.pods-texst__top {
+   font-family: "Prosto One Regular";
+   font-weight: 400;
+   font-size: 100px;
+   line-height: 75px;
+   color: #fff;
+}
+
+.intro__link {
+   font-family: "Montserrat Medium";
+   font-weight: 500;
+   font-size: 20px;
+   border-radius: 10px;
+   padding-top: 13px;
+   padding-right: 41px;
+   padding-left: 15px;
+   padding-bottom: 13px;
+   color: #171718;
+   background: #fff;
+   text-decoration: none;
+}
+
+.main__intro {
+   display: flex;
+   justify-content: center;
+}
+
+.intro__texst {
+   font-family: "Montserrat Medium";
+   font-weight: 500;
+   font-size: 22px;
+   color: #fff;
+   padding-top: 63px;
+}
+
+.images__pods {
+   padding-top: 30px;
+   padding-left: 30px;
+}
+
+.main__into {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.keys__title {
+   font-family: "Montserrat Medium";
+   font-weight: 500;
+   font-size: 22px;
+   color: #fff;
+   padding-left: 87px;
+}
+
+.intro__title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   
+}
+
+.pods__texst {
+   font-family: "Montserrat Medium";
+   font-weight: 500;
+   font-size: 22px;
+   color: #fff;
+   padding-left: 88px;
+}
+
+.pods__images {
+   padding-top: 50px;
+   padding-left: 88px;
+   padding-right: 86px;
+   padding-bottom: 80px;
+}
+
+.intro__title::after {
+   content: '';
+   display: block;
+   width: 61px;
+   height: 1px;
+   background: #C4C4C4;
+   position: absolute;
+   left: 32%;
+   bottom: 53%;
+}
+
+.intro__title::before {
+   content: '';
+   display: block;
+   width: 61px;
+   height: 1px;
+   position: absolute;
+   right: 43%;
+   bottom: 53%;
+   background: #C4C4C4;
+}
+.picture-conteiner{
+   display: flex;
+   padding-top: 78px;
+   padding-bottom: 70px;
+   column-gap: 30px;
+}
+.picture__sturcter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  width: 255px;
+}
+.picture__title{
+   font-family: "Montserrat Bold";
+   font-size: 20px;
+   font-weight: 700;
+   color: #000000;
+}
+.picture__tit{
+   font-family: "Montserrat Regular";
+   font-size: 14px;
+   font-weight: 400;
+   color: #000000;
+}
+.picture__sturcter{
+   padding-top: 15px;
+   padding-left: 58px;
+   padding-right: 58px;
+   padding-bottom: 15px;
+}
+
+
+.item-btn {
+   font-family: "Montserrat Bold";
+   font-weight: 700;
+   font-size: 16px;
+   background: black;
+   color: white;
+   padding: 10px 15px;
+   padding-top: 7px;
+   padding-left: 57px;
+   padding-right: 57px;
+   padding-bottom: 7;
+   text-decoration: none;
+}
+.phone-content{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background: #282828;
+}
+.header__link{
+   color: #fff;
+   text-decoration: none;
+}
+.footer-list{
+   display: flex;
+   text-align: center;
+   list-style: none;
+}
+.header__list{
+   padding-top: 95px;
+   padding-left: 30px;
+   padding-bottom: 95px;
+}
+.header__iten{
+   padding-top: 20px;
+   padding-right: 30px;
+   padding-bottom: 20px;
+}
+.header__link{
+   font-family: "Montserrat Bold";
+   font-weight: 700;
+   font-size: 20px;
+}
+.footer-icons{
+   display: flex;
+}
+.aside__lo{
+  padding-left: 30px;
+  color: #fff;
+}
+
+.icon {
+   font-size: 100px;
+}
